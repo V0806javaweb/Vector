@@ -23,6 +23,7 @@ int main()
 	auto it = tvd.begin();
 	for (it; it != tvd.end(); ++it)
 		cout << *it << " ";
+	
 	cout << endl;
 	cout << ivb.size()<<" "<<ivb[0];
 }
